@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 36
+  controlID: 28
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 37
+  controlID: 29
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 38
+  controlID: 30
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -637,7 +637,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 80dbffffd4dbffffd8dcffff94e0ffff18e3ffff9ee3ffffe6e3ffff30e4ffff80e4ffffc8e4ffff10e5ffffb2e7ffff0ce8ffff70eaffff0cf0ffff68f0ffffb6f0ffff04f1ffff54f1ffff28fbffff4a60000082600000787c0000e87c0000667e00005481000066840000f2840000148500006e880000
+      m_ExpandedIDs: 28fbffff8a600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -807,9 +807,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 62.99933}
-    m_SelectedIDs: 04610000
-    m_LastClickedID: 24836
-    m_ExpandedIDs: 00000000e460000000ca9a3bffffff7f
+    m_SelectedIDs: 14610000
+    m_LastClickedID: 24852
+    m_ExpandedIDs: 00000000f460000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,7 +837,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4600000
+    m_ExpandedIDs: 00000000f4600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1146,10 +1146,10 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-09-01T19:30:50.911-06:00
+      updatedTimeString: 2022-09-07T22:33:09.343-06:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-09-01T19:30:34.049-06:00
+      updatedTimeString: 2022-09-07T22:33:55.096-06:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -3424,32 +3424,32 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: 
-      gitLfsPath: 
+      gitPath: /usr/bin/git
+      gitLfsPath: /Users/estebanarias/Library/Application Support/GitHubUnity/git-lfs/git-lfs
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    metricsEnabled: 0
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
-    repositoryRemoteUrl: 
+      updatedTimeString: 2022-09-07T22:33:09.343-06:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/EstebanAF10/Trivia-EAF.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/EstebanAF10/Trivia-EAF.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: 
-      gitEmail: 
-      newGitName: 
-      newGitEmail: 
+      gitName: Esteban Arias
+      gitEmail: esteban.arfu@icloud.com
+      newGitName: Esteban Arias
+      newGitEmail: esteban.arfu@icloud.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 
-        cacheType: 0
-    webTimeout: 0
-    gitTimeout: 0
+        updatedTimeString: 2022-09-07T22:33:20.203-06:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
   locksView:
     currentRemoteHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
@@ -3498,7 +3498,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/EstebanAF10/Trivia-EAF.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
   hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
@@ -3511,13 +3511,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-09-01T19:30:50.911-06:00
+    updatedTimeString: 2022-09-07T22:33:09.343-06:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-09-01T19:30:50.917-06:00
+    updatedTimeString: 2022-09-07T22:33:55.222-06:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-09-01T19:30:34.049-06:00
+    updatedTimeString: 2022-09-07T22:33:55.096-06:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
